@@ -4,4 +4,4 @@
 *.dSYM/*
 
 # Compiled program
-a.out
+compiled
