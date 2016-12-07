@@ -1,5 +1,5 @@
 # Solutions
 
-| Problem # | Answer | Language |
-|:---------:|:------:|:--------:|
-|1          |233168  |C         |
+| Problem # | Answer | Language | Complexity |
+|:---------:|:------:|:--------:|:----------:|
+|1          |233168  |C         |O(n)        |
