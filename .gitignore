@@ -1,6 +1,7 @@
 # OS Junk
 .DS_Store
 [Tt]humbs.db
+*.dYSM
 
 # Compiled program
 a.out
