@@ -8,3 +8,4 @@ fi
 rm -f compiled
 $1 -Wall -Werror -g -o compiled $2
 rm -rf compiled.dSYM
+./compiled
