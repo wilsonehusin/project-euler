@@ -12,7 +12,7 @@
 	$index = 10001;
 	$primes = array();
 	$i = 2;
-	while (count($primes) < 10001) {
+	while (count($primes) < $index) {
 		if (isPrime($i)) {
 			$primes[] = $i;
 			echo "primes[" . count($primes) - 1 . "] = " . $i . "\n";
