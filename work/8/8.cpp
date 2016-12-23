@@ -3,7 +3,7 @@
 
 using namespace std;
 
-Backtrack::Backtrack(int numbers[][]) {
+Backtrack::Backtrack(vector<vector<int>> numbers) {
 	/*
 	int vlength = sizeof(numbers)/sizeof(numbers[0]);
 	int i;
@@ -13,12 +13,14 @@ Backtrack::Backtrack(int numbers[][]) {
 	*/
 }
 
-int[] Backtrack::iterateEveryElement(int length) {
-	return new int[0];
+vector<int> Backtrack::iterateEveryElement(int length) {
+	vector<int> temp = {0};
+    return temp;
 }
 
-int[] Backtrack::checkPossibleChoices(Coord start) {
-	return new int[0];
+vector<int> Backtrack::checkPossibleChoices(Coord start) {
+	vector<int> temp = {0};
+    return temp;
 }
 
 int Backtrack::checkIfPassed(Coord check) {
@@ -26,7 +28,7 @@ int Backtrack::checkIfPassed(Coord check) {
 }
 
 int main() {
-	int numbers[][] = {
+    vector<vector<int>> numbers = {
 		{7,3,1,6,7,1,7,6,5,3,1,3,3,0,6,2,4,9,1,9,2,2,5,1,1,9,6,7,4,4,2,6,5,7,4,7,4,2,3,5,5,3,4,9,1,9,4,9,3,4},
 		{9,6,9,8,3,5,2,0,3,1,2,7,7,4,5,0,6,3,2,6,2,3,9,5,7,8,3,1,8,0,1,6,9,8,4,8,0,1,8,6,9,4,7,8,8,5,1,8,4,3},
 		{8,5,8,6,1,5,6,0,7,8,9,1,1,2,9,4,9,4,9,5,4,5,9,5,0,1,7,3,7,9,5,8,3,3,1,9,5,2,8,5,3,2,0,8,8,0,5,5,1,1},
@@ -49,5 +51,5 @@ int main() {
 		{7,1,6,3,6,2,6,9,5,6,1,8,8,2,6,7,0,4,2,8,2,5,2,4,8,3,6,0,0,8,2,3,2,5,7,5,3,0,4,2,0,7,5,2,9,6,3,4,5,0}
 	};
 
-	int path[][] = new int[(int) (sizeof[numbers]/sizeof[numbers[0]])][(int) (sizeof(numbers[0])/sizeof(numbers[0][0]))];
+	// int path[][] = new int[(int) (sizeof[numbers]/sizeof[numbers[0]])][(int) (sizeof(numbers[0])/sizeof(numbers[0][0]))];
 }
