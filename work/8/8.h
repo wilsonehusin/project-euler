@@ -12,7 +12,7 @@ class Backtrack {
 		std::vector<int> _max;
 		std::vector<Coord> _maxPath;
 	public:
-		Backtrack(std::vector<std::vector<int>> numbers);
+		Backtrack();
 		int getVal(Coord c);
         std::vector<int> iterateEveryElement(int length);
         std::vector<int> checkPossibleChoices(Coord start);

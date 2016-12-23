@@ -5,3 +5,7 @@
 
 # Compiled program
 compiled
+
+# Swap files
+.*.swp
+.*.sw*
