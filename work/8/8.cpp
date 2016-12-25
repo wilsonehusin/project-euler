@@ -26,7 +26,13 @@ Backtrack::Backtrack() {
         {0,5,8,8,6,1,1,6,4,6,7,1,0,9,4,0,5,0,7,7,5,4,1,0,0,2,2,5,6,9,8,3,1,5,5,2,0,0,0,5,5,9,3,5,7,2,9,7,2,5},
         {7,1,6,3,6,2,6,9,5,6,1,8,8,2,6,7,0,4,2,8,2,5,2,4,8,3,6,0,0,8,2,3,2,5,7,5,3,0,4,2,0,7,5,2,9,6,3,4,5,0}
     };
-
+    int i;
+    int j;
+    for (i = 0; i < sizeof(this->_numbers) / sizeof(this->_numbers[0]); i++) {
+        for (j = 0; j < sizeof(this->_numbers[0]) / sizeof(this->_numbers[0][0]); j++) {
+            this->_log[i][j] = 0;
+        }
+    }
 }
 
 vector<int> Backtrack::iterateEveryElement(int length) {
@@ -44,5 +50,5 @@ int Backtrack::checkIfPassed(Coord check) {
 }
 
 int main() {
-
+    Backtrack * bt = new Backtrack();
 }
