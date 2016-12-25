@@ -1,5 +1,7 @@
 # Solutions
 
+##### The purpose of me publishing my work is not for anyone to copy the solution. However, I would be interested if you have a better answer (with less complexity for example) and therefore I start this with myself.
+
 | Problem # | Answer    | Language | Complexity       |
 |:---------:|:---------:|:--------:|:----------------:|
 | 1         | 233168    | C        | O(n)             |
