@@ -11,8 +11,9 @@ class Backtrack {
 		std::vector<std::vector<int>> _log;
 		std::vector<int> _max;
 		std::vector<Coord> _maxPath;
+		int _length;
 	public:
-		Backtrack();
+		Backtrack(int length);
 		int getVal(Coord c);
         std::vector<int> iterateEveryElement(int length);
         std::vector<int> checkPossibleChoices(Coord start);
